@@ -1,0 +1,14 @@
+trait	broad_STP	narrow_STP	broad_TLI	narrow_TLI
+Anthesis (1-10)	0.82	0.63	0.78	0.53
+Spike Emergence (%)	0.78	0.52	0.72	0.32
+Flag Leaf Area (cm2)	0.57	0.13	0.44	0.18
+Floret Site Utilization (%)	0.61	0.12	0.5	0
+Florets Spikelet-1 (ct)	0.55	0.25	0.52	0.22
+Height (cm)	0.85	0.63	0.71	0.46
+Reproductive Tillers (ct)	0.88	0.54	0.47	0.19
+Spikelet Density (cm)	0.85	0.66	0.74	0.47
+Spikelets Spike-1 (ct)	0.72	0.44	0.65	0.4
+Stem Diameter (mm)	0.63	0.26	0.65	0.22
+Thousand Grain Weight (mg)	0.86	0.55	0.85	0.5
+Yield Plant-1 (g)	0.81	0.45	NA	NA
+Yield Spike-1 (g)	0.82	0.21	0.55	0.02

@@ -1,0 +1,47 @@
+"Trait1","Effect","Trait2","est","se","z","pvalue","ci.lower","ci.upper"
+"Stem Diameter","Direct","Thousand Grain Weight",0.22,0.03,6.95,0,0.16,0.28
+"Flag Leaf Area","Direct","Thousand Grain Weight",0.06,0.03,1.84,0.066,0,0.12
+"Anthesis Score","Direct","Thousand Grain Weight",-0.03,0.04,-0.88,0.378,-0.11,0.04
+"Spikelet Density","Direct","Thousand Grain Weight",-0.31,0.03,-9.95,0,-0.37,-0.25
+"Height","Direct","Thousand Grain Weight",0.22,0.04,6.09,0,0.15,0.29
+"Spike Emergence","Direct","Thousand Grain Weight",-0.02,0.04,-0.52,0.606,-0.09,0.05
+"Reproductive Tillers","Direct","Thousand Grain Weight",0.07,0.03,2.24,0.025,0.01,0.13
+"Stem Diameter","Direct","Floret Site Utilization",0.03,0.04,0.71,0.475,-0.05,0.1
+"Flag Leaf Area","Direct","Floret Site Utilization",0.11,0.04,3,0.003,0.04,0.18
+"Anthesis Score","Direct","Floret Site Utilization",0.06,0.04,1.55,0.12,-0.02,0.14
+"Spikelet Density","Direct","Floret Site Utilization",-0.06,0.03,-1.62,0.105,-0.12,0.01
+"Height","Direct","Floret Site Utilization",0.11,0.04,2.65,0.008,0.03,0.18
+"Spike Emergence","Direct","Floret Site Utilization",0.03,0.04,0.85,0.398,-0.04,0.11
+"Reproductive Tillers","Direct","Floret Site Utilization",0.09,0.04,2.42,0.016,0.02,0.15
+"Florets per Spikelet","Direct","Floret Site Utilization",-0.26,0.03,-7.56,0,-0.33,-0.2
+"Floret Site Utilization","Direct","Yield per Spike",0.7,0.01,76.56,0,0.68,0.72
+"Thousand Grain Weight","Direct","Yield per Spike",0.37,0.01,42.87,0,0.35,0.38
+"Spikelets per Spike","Direct","Yield per Spike",0.43,0.01,47.87,0,0.41,0.45
+"Florets per Spikelet","Direct","Yield per Spike",0.38,0.01,40.84,0,0.36,0.4
+"Yield per Spike","Direct","Yield per Plant",0.47,0.02,26.1,0,0.44,0.51
+"Reproductive Tillers","Direct","Yield per Plant",0.59,0.02,30.46,0,0.55,0.63
+"Florets per Spikelet","Direct","Yield per Spike",0.38,0.01,40.84,0,0.36,0.4
+"Floret Site Utilization","Direct","Yield per Spike",0.7,0.01,76.56,0,0.68,0.72
+"Thousand Grain Weight","Direct","Yield per Spike",0.37,0.01,42.87,0,0.35,0.38
+"Spikelets per Spike","Direct","Yield per Spike",0.43,0.01,47.87,0,0.41,0.45
+"Reproductive Tillers","Direct","Yield per Plant",0.59,0.02,30.46,0,0.55,0.63
+"Yield per Spike","Direct","Yield per Plant",0.47,0.02,26.1,0,0.44,0.51
+"Florets per Spikelet","Indirect","Yield per Spike",-0.18,0.02,-7.52,0,-0.23,-0.14
+"Anthesis Score","Indirect","Yield per Spike",0.03,0.03,1.02,0.308,-0.03,0.09
+"Stem Diameter","Indirect","Yield per Spike",0.1,0.03,3.52,0,0.04,0.15
+"Spikelet Density","Indirect","Yield per Spike",-0.15,0.03,-5.75,0,-0.2,-0.1
+"Height","Indirect","Yield per Spike",0.15,0.03,5,0,0.09,0.21
+"Flag Leaf Area","Indirect","Yield per Spike",0.1,0.03,3.49,0,0.04,0.15
+"Reproductive Tillers","Indirect","Yield per Spike",0.09,0.03,3.14,0.002,0.03,0.14
+"Spike Emergence","Indirect","Yield per Spike",0.02,0.03,0.54,0.59,-0.04,0.08
+"Florets per Spikelet","Indirect","Yield per Plant",0.09,0.01,7.28,0,0.07,0.12
+"Height","Indirect","Yield per Plant",0.07,0.01,4.91,0,0.04,0.1
+"Stem Diameter","Indirect","Yield per Plant",0.05,0.01,3.39,0.001,0.02,0.07
+"Anthesis Score","Indirect","Yield per Plant",0.02,0.01,1.02,0.308,-0.01,0.04
+"Spike Emergence","Indirect","Yield per Plant",0.01,0.01,0.54,0.59,-0.02,0.04
+"Spikelet Density","Indirect","Yield per Plant",-0.07,0.01,-5.62,0,-0.1,-0.05
+"Flag Leaf Area","Indirect","Yield per Plant",0.05,0.01,3.46,0.001,0.02,0.07
+"Floret Site Utilization","Indirect","Yield per Plant",0.33,0.01,24.7,0,0.31,0.36
+"Thousand Grain Weight","Indirect","Yield per Plant",0.17,0.01,22.29,0,0.16,0.19
+"Spikelets per Spike","Indirect","Yield per Plant",0.2,0.01,22.91,0,0.19,0.22
+"Reproductive Tillers","Indirect","Yield per Plant",0.04,0.01,3.12,0.002,0.02,0.07
