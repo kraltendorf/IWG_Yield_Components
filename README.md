@@ -14,3 +14,6 @@ Here we use the emmeans to create a formatted correlation table, calculate broad
 
 ### Script 3 - Structural Equation Modeling.R
 Using standardized emmeans, we test the initial model against the data, calculate and evaluate modification indices, and determine final models. We extract the path coefficients from the output and create Figure 4 and the Supplementary Tables S9 - 12. 
+
+### Script 4 - Weather Data.R
+Creating the weather and precipitation figure using data from NOAA and The Land Institute Weather Station. 
