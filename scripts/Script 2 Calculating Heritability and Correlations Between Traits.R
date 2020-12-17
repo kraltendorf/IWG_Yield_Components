@@ -38,7 +38,7 @@ env <- c("stp17", "stp18", "tli17", "tli18")
 # In the same order as the traits in the dataframe
 pub_names <- c("Anthesis (1-10)", "Spike Emergence (%)", "Flag Leaf Area (cm2)", "Floret Site Utilization (%)", 
                "Florets Spikelet-1 (ct)", "Height (cm)", "Reproductive Tillers (ct)", "Spikelet Density (cm)",
-               "Spikelets Spike-1 (ct)", "Stem Diameter (mm)", "Thousand Grain Weight (mg)",  "Yield Plant-1 (g)", 
+               "Spikelets Spike-1 (ct)", "Stem Diameter (mm)", "Thousand Grain Weight (g)",  "Yield Plant-1 (g)", 
                "Yield Spike-1 (g)")
 
 
@@ -364,8 +364,8 @@ florets_per_spikelet <- ggplot(emmeans, aes(x = loc, y = florets_per_spikelet)) 
         axis.text.y = element_text(size = 10),
         axis.title.y = element_text(size = 15),
         axis.title.x = element_blank()) +
-  annotate("text",  x=Inf, y = Inf, label = "H = 0.55", vjust= 1.5, hjust=1.05) +
-  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.52")), vjust= 2.5, hjust=1.05)
+  annotate("text",  x=Inf, y = Inf, label = "H = 0.55; 0.52", vjust= 1.5, hjust=1.05) +
+  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.25; 0.22")), vjust= 2.5, hjust=1.05)
 
 # height
 height <- ggplot(emmeans, aes(x = loc, y = height)) + 
@@ -397,7 +397,7 @@ reproductive_tiller_ct <- ggplot(emmeans, aes(x = loc, y = reproductive_tiller_c
         axis.title.x = element_blank()) +
   annotate("text",  x=Inf, y = Inf, label = "H = 0.88; 0.47", vjust= 1.5, hjust=1.05) +
   annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.54; 0.19")), vjust= 2.5, hjust=1.05) +
-  annotate("text", x = c(0.8, 1.2, 1.8, 2.2), y = c(85, 185, 110, 95), label = c("bc", "a", "b", "c"))
+  annotate("text", x = c(0.8, 1.2, 1.8, 2.2), y = c(85, 185, 110, 95), label = c("c", "a", "b", "c"))
 
 # spikelet_density
 spikelet_density <- ggplot(emmeans, aes(x = loc, y = spikelet_density)) + 
@@ -444,7 +444,7 @@ stem_diameter <- ggplot(emmeans, aes(x = loc, y = stem_diameter)) +
         axis.title.y = element_text(size = 15),
         axis.title.x = element_blank()) + 
   annotate("text",  x=Inf, y = Inf, label = "H = 0.63; 0.65", vjust= 1.5, hjust=1.05) +
-  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.27; 0.22")), vjust= 2.5, hjust=1.05)
+  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.26; 0.22")), vjust= 2.5, hjust=1.05)
 
 # thousand_grain_weight
 thousand_grain_weight <- ggplot(emmeans, aes(x = loc, y = thousand_grain_weight)) + 
@@ -500,14 +500,16 @@ yield_per_spike <- ggplot(emmeans, aes(x = loc, y = yield_per_spike)) +
         axis.title.y = element_text(size = 15),
         axis.title.x = element_blank()) +
   annotate("text",  x=Inf, y = Inf, label = "H = 0.82; 0.55", vjust= 1.5, hjust=1.05) +
-  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.21; 0.02")), vjust= 2.5, hjust=1.05)
+  annotate("text",  x=Inf, y = Inf, label = expression(paste(italic(h)^2, " = 0.21; 0.02")), vjust= 2.5, hjust=1.05) + 
+  annotate("text", x = c(0.8, 1.2, 1.8, 2.2), y = c(0.85, 0.64, 0.65, 0.25), label = c("a", "b", "b", "c"), size = 4)
+
 
 
 # make a fake figure to extract the legend
 fake_fig <- ggplot(emmeans, aes(x = loc, y = yield_per_plant)) + 
   geom_boxplot(aes(fill=interaction(loc, year))) +
   theme_bw() +
-  scale_fill_manual(breaks = c("STP.2017", "STP.2018", "TLI.2017", "TLI.2018"), values=c("#0072B2", "#56B4E9", "#C19417", "#fce6a4"), labels = c("STP 2017", "STP 2018", "TLI 2017", "TLI 2018")) +
+  scale_fill_manual(breaks = c("STP.2017", "STP.2018", "TLI.2017", "TLI.2018"), values=c("#0072B2", "#56B4E9", "#C19417", "#fce6a4"), labels = c("STP 2017", "STP 2018", "TLI 2017", "TLI 2018")) + 
   theme(legend.text=element_text(size=25),
         legend.title = element_blank(),
         panel.grid.major = element_blank(), panel.grid.minor = element_blank())
@@ -515,7 +517,7 @@ fake_fig <- ggplot(emmeans, aes(x = loc, y = yield_per_plant)) +
 leg <- get_legend(fake_fig)
 plot(leg)
 
-# cowplot them all together
+# cowplot them all togethers
 # save at 1500, 1000 tiff
 
 # depending on the order you want them (alphabetical)
